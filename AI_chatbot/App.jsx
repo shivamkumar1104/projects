@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      <Bot3 /> 
-     {/* with some unidentified text, yet bot3 works properly */}
+    
 
     </>
   )
