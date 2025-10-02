@@ -110,12 +110,12 @@ const LinkIcon = (props) => (
 function Bot3() {
     // Array of API key slots. This is now internal and defines the failover order.
     const API_SLOTS = React.useMemo(() => [
-        {name: "User_Ss",key: "AIzaSyB-LBqjW9Efpeu8wq8DCTPxqOQWwWmfP_I"},
-        {name: "User_S", key: "AIzaSyC9NmYZnP9Tnw3rrpgrstDJKSi_uLAsEaM"},
-        {name: "User_D", key: "AIzaSyCfXYRv6wVg3g8RA7zGXO1At8XIi1GQC7U"},
-        {name: "User_P", key: "AIzaSyAOOg9bpJJ-PbhkBOiRIrxxragnL2ITWxg"},
-        {name: "USer_A", key: "AIzaSyCc1thbZV77pP7dxHPNs3NTEsNbEeAazs4"},
-        {name: "User_N", key: "AIzaSyBcr39TzZIDTHldoSM07JTm1jIRNjCrVgU"}
+        {name: "User_Ss",key: "Ss_api_key"},
+        {name: "User_S", key: "S_api_key"},
+        {name: "User_D", key: "D_api_key"},
+        {name: "User_P", key: "P_api_key"},
+        {name: "USer_A", key: "A_api_key"},
+        {name: "User_N", key: "N_api_key"}
         
     ], []);
    
@@ -445,3 +445,4 @@ function Bot3() {
 }
 
 export default Bot3;
+
